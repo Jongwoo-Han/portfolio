@@ -66,7 +66,7 @@ A quick look at the top-level files and directories you'll see in a blog project
 
 8.  **`.prettierrc.js`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-9.  **`LICENSE`**: Blog is licensed under the MIT license.
+9.  **`LICENSE`**: This project is licensed under the MIT license.
 
 10. **`README.md`**: A text file containing useful reference information about your project.
 
