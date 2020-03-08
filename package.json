@@ -1,0 +1,55 @@
+{
+  "name": "blog",
+  "private": true,
+  "description": "Blog posted about front end development.",
+  "version": "0.1.0",
+  "author": "@jongwooo <han980817@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-typescript": "^2.1.26",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "gatsby-plugin-eslint": "^2.0.8",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "keywords": [
+    "gatsby, typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --check \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
+    "lint": "eslint .",
+    "prettier": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx,yml}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jongwooo/blog"
+  },
+  "bugs": {
+    "url": "https://github.com/jongwooo/blog/issues"
+  }
+}
