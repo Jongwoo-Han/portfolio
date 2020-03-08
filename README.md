@@ -87,9 +87,3 @@ A quick look at the top-level files and directories you'll see in a blog project
 ## 📝 License
 
 Licensed under the [MIT License](LICENSE).
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jongwooo/blog)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
