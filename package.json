@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "@jongwooo <han980817@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-graphql-codegen": "^2.2.1",
