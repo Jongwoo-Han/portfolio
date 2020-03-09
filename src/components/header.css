@@ -1,13 +1,13 @@
 .header {
-  z-index: 32;
-  padding: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: hsla(0, 0%, 100%, .7);
-  background-color: #24292e;
+	z-index: 32;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: #24292e;
 }
 
 .header-item {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }

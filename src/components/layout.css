@@ -1,46 +1,29 @@
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: #f7f8fa;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: #f7f8fa;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .row {
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.col-md-6 {
-  position: relative;
-  width: 50%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-@media screen and (max-width: 768px) {
-  .col-md-6 {
-    position: relative;
-    width: 90%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
 }
 
 .layout {
-  margin: 0 auto;
-  padding: 0 1rem 1rem;
+	margin: 0 auto;
+	padding: 0 1rem 1rem;
 }
 
-/* Padding Top */
 .pt-1 {
-  padding-top: 1em;
+	padding-top: 1em;
 }

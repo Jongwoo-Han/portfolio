@@ -1,42 +1,42 @@
 .content-ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .content-li {
-  background-color: #fff;
-  margin-bottom: 1em;
-  padding: 20px;
-  border: 1px solid #d1d5da;
-  border-radius: 3px;
+	background-color: #fff;
+	margin-bottom: 1em;
+	padding: 20px;
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
 }
 
 .content-log {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .content-title {
-  margin-top: 0;
-  margin-bottom: 0.5em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
 }
 
 .content-link {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 .content-link:hover {
-  color: #0366d6;
+	color: #0366d6;
 }
 
 .content-item {
-  color: #586069;
+	color: #586069;
 }
 
 strong {
-  color: black !important;
+	color: black !important;
 }
 
 .content-hr {
-  border-width: 0.25px;
+	border-width: 0.25px;
 }
