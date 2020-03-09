@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import * as React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 
