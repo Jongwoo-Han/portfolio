@@ -67,6 +67,3 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-
-# Gatsby Typescript Graphql Codegen
-types/graphql-types.ts
