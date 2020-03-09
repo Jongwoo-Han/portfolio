@@ -9,6 +9,8 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 
 import Header from "./header";
 import "./layout.css";
@@ -27,9 +29,11 @@ const Layout: React.FC = ({ children }) => {
 	return (
 		<>
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<div className="row">
-				<main className="col-md-6 layout pt-1">{children}</main>
-			</div>
+			<Container maxWidth="lg">
+				<Grid item sm>
+					<main className="layout pt-1">{children}</main>
+				</Grid>
+			</Container>
 		</>
 	);
 };
