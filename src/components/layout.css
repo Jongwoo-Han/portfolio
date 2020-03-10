@@ -19,9 +19,8 @@ body {
 	margin-left: -15px;
 }
 
-.layout {
-	margin: 0 auto;
-	padding: 0 1rem 1rem;
+.MuiGrid-item {
+	margin: 0 auto !important;
 }
 
 .pt-1 {
