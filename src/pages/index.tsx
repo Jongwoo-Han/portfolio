@@ -12,7 +12,7 @@ const LatestPostListQuery = graphql`
 		allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
 			edges {
 				node {
-					excerpt(truncate: true, pruneLength: 200)
+					excerpt(truncate: true, pruneLength: 20)
 					frontmatter {
 						title
 						path
